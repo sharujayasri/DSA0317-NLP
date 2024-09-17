@@ -1,0 +1,8 @@
+import nltk
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')  # Ensure the punkt tokenizer is downloaded
+text = "Hello, Students Welcome to SSE."
+tokens = word_tokenize(text)
+print("Word Tokens:")
+print(tokens)
